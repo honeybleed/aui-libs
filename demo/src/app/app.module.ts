@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppSharedModule } from './shared/shared.module';
 import { HomeModule } from './home/home.module';
 import { AppComponent } from './app.component';
+import { AuiIconModule } from '@aui/icon';
 
 @NgModule({
     declarations: [
@@ -22,7 +23,15 @@ import { AppComponent } from './app.component';
         HttpModule,
         AppRoutingModule,
         AppSharedModule,
-        HomeModule
+        HomeModule,
+        AuiIconModule.forRoot([
+          {
+            family: 'test',
+            map: [
+              {name: 'test', code: '123'}
+            ]
+          }
+        ])
     ],
     providers: [],
     bootstrap: [AppComponent]

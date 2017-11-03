@@ -28,7 +28,10 @@
     "start": "gulp build",
     "test": " gulp test",
     "demo": " gulp build:demo",
-    "check-travis": " travis-status --repo=honeybleed/aui-libs-icon --branch=master --fail-pending || echo 'Not yet passing'"
+    "build-lib": "gulp build:watch",
+    "check-travis": " travis-status --repo=honeybleed/aui-libs-icon --branch=master --fail-pending || echo 'Not yet passing'",
+    "serve-doc": "gulp serve:doc",
+    "serve-demo": "gulp serve:demo"
   },
   "dependencies": {
     "@angular/core": "4.0.0",
