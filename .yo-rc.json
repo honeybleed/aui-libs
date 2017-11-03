@@ -1,0 +1,36 @@
+{
+  "generator-ngx-library": {
+    "version": "4.5.1",
+    "authorName": "Aaron",
+    "authorEmail": "honeybleed@gmail.com",
+    "githubUsername": "honeybleed",
+    "githubRepoName": "aui-libs-icon",
+    "projectName": "@aui/icon",
+    "projectVersion": "0.0.1",
+    "projectDescription": "Angular library built with ❤ using ngx-library yeoman generator.",
+    "projectKeywords": [
+      "ng",
+      "angular",
+      "library"
+    ],
+    "ngVersion": "4.0.0",
+    "ngModules": [
+      "core",
+      "common"
+    ],
+    "otherDependencies": [],
+    "ngPrefix": "aui",
+    "useGreenkeeper": true,
+    "useCompodoc": true,
+    "enforceNgGitCommitMsg": true,
+    "exclusions": [
+      "src/module/component/lib.component.html",
+      "src/module/component/lib.component.spec.ts",
+      "src/module/component/lib.component.ts",
+      "src/module/component/lib.component.scss",
+      "src/module/service/lib.service.ts",
+      "src/module/service/lib.service.spec.ts",
+      "src/module/lib.module.ts"
+    ]
+  }
+}
